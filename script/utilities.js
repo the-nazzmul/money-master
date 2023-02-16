@@ -20,3 +20,7 @@ function setElementValueById (elementId, newValue){
     const elementLocation = document.getElementById(elementId);
     elementLocation.innerText = newValue
 }
+
+function GetLocation (Id){
+    const locaton = document.getElementById(Id);
+}
